@@ -17,7 +17,7 @@ public class Order
     public BusinessId<Order> Id { private set; get; } = default!;
     public BusinessId<Customer> CustomerId { private set; get; } = default!;
     public Money Price { private set; get; }
-    public IList<OrderItem> OrderItems => _orderItems.ToList(); // a navigation
+    public IEnumerable<OrderItem> OrderItems => _orderItems.ToList(); // a navigation
 
     public void AddOrderItem(BusinessId<Product> productId, Money price, int count)
     {
