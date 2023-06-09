@@ -1,6 +1,6 @@
 using OrderProduct.Domain.ValueObjects;
 
-namespace OrderProduct.Domain.Products;
+namespace OrderProduct.Domain.Entities.Products;
 
 public class Product
 {

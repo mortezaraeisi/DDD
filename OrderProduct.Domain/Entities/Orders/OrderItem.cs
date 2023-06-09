@@ -1,7 +1,7 @@
-using OrderProduct.Domain.Products;
+using OrderProduct.Domain.Entities.Products;
 using OrderProduct.Domain.ValueObjects;
 
-namespace OrderProduct.Domain.Orders;
+namespace OrderProduct.Domain.Entities.Orders;
 
 public record OrderItem
 {
